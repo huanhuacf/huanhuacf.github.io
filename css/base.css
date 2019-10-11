@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;/* 边框和内边距不影响宽高*/
+}
+body{
+    background: url("../image/whitebg.jpg") repeat;/*平铺方式*/
+    font-family: "Microsoft Yahei" ;
+    color: #787978;
+}
+html{
+    font-size: 14px;
+}
+p{
+    margin-bottom: 0;
+}
+
+
+
+.content{
+    margin: 0 auto;
+    width: 100%;
+}
+.top{
+    width: 45px;
+    height: 45px;
+    background: #ccc;
+    border-radius: 5px;
+    opacity: 0.5; 
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10%;
+    right: 20px;
+}
+.top:hover{
+    opacity: 0.9;
+}
